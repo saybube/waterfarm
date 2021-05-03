@@ -6,6 +6,8 @@ from .models import Post
 
 # Create your tests here.
 class BlogTests(TestCase):
+
+
     def setUp(self):
         self.user = get_user_model().objects.create_user(
             username='testuser',
