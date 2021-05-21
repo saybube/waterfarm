@@ -9,6 +9,7 @@ from .models import Post
 class BlogListView(LoginRequiredMixin, ListView):
     model = Post
     template_name = "home.html"
+    context_object_name = 'object_list'
 
 class BlogDetailView(LoginRequiredMixin, DetailView):
     model = Post
@@ -36,5 +37,3 @@ class BlogDeleteView(LoginRequiredMixin, UserPassesTestMixin, DeleteView):
     def test_func(self):
         obj = self.get_object()
         return obj.author == self.request.user
-
-

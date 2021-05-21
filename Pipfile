@@ -29,6 +29,7 @@ virtualenv-clone = "==0.5.4"
 whitenoise = "==5.2.0"
 wrapt = "==1.12.1"
 Django = "==3.2"
+django-crispy-forms = "==1.9.2"
 
 [dev-packages]
 
