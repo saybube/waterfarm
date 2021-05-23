@@ -4,8 +4,7 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-waitress = "*"
-django-heroku = "*"
+django-crispy-forms = "*"
 
 [dev-packages]
 
