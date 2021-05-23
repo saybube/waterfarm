@@ -1,3 +1,3 @@
 # waterfarm
 Zuri blog
-https://git.heroku.com/waterfarm.git
+https://waterfarm6.herokuapp.com/
